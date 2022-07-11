@@ -1,0 +1,57 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Architectures: darwin-arm64 darwin-arm64e darwin-amd64
+Codename: big_sur
+Components: main testing
+Date: Mon, 11 Jul 2022 16:36:55 +0000
+Description: Distribution of tools for macOS Big Sur
+Label: Growtopia Jaw
+Origin: Growtopia Jaw
+Suite: big_sur
+Version: 1.0
+MD5Sum:
+ f4570c4d8314960e0ab1d4a3ff16c86f              260 Release
+ f7a0a34b09f1c142de8ae6e49505d8be             8920 main/binary-darwin-amd64/Packages
+ b8ac8b36143aea29ed2733e576d306ee             3153 main/binary-darwin-amd64/Packages.bz2
+ 450df244273fc193c9d494f129717acc             3087 main/binary-darwin-amd64/Packages.gz
+ 18c1211c5e62085d66abb7e112c7a187             2936 main/binary-darwin-amd64/Packages.xz
+ 1f57e5518bc270efbfd8983feb8b8c01             2950 main/binary-darwin-amd64/Packages.zst
+SHA1:
+ 15919387cfb6bf98625a48c24a741c93ab3e9c9c              260 Release
+ 034c88d0f0338137c044116090bf81ab8982f3a2             8920 main/binary-darwin-amd64/Packages
+ 811be4e4fb6f0130fb101752e10a4d115e97cb15             3153 main/binary-darwin-amd64/Packages.bz2
+ 7ac3773db39674a06ad5f16674e66fdbdb62d3e6             3087 main/binary-darwin-amd64/Packages.gz
+ fa6d2eb9243f30e27d10dde86274dc5e21f16182             2936 main/binary-darwin-amd64/Packages.xz
+ 874696dcd10e04d393f320a1b2aec431088be71f             2950 main/binary-darwin-amd64/Packages.zst
+SHA256:
+ 79966c0014559087975c8905b9599a4afb31a20a4e10c09c63902d347486d8ec              260 Release
+ 18139b421927b30c2eeac7226ed94c392d93a9f253b1112d915a6ed3a6cf6ace             8920 main/binary-darwin-amd64/Packages
+ 24a2b15357c7622f1ab1c436642b5767d0b22d08e81e489b5b38165a837eaf4b             3153 main/binary-darwin-amd64/Packages.bz2
+ 937f13f691be64f51251361487038ea9c2e4c92a1dd870405a5c33b3771a115f             3087 main/binary-darwin-amd64/Packages.gz
+ 21dbdd0e1d046c1148126bf0572a59f380f91287d940333e79d99dc631a8839d             2936 main/binary-darwin-amd64/Packages.xz
+ cb4fb86910e50cb056eed5b1609a02a604d31cb56233b265b62cf9a699397dc7             2950 main/binary-darwin-amd64/Packages.zst
+SHA512:
+ ac28d8a8f19ba60c3792347b66c422afa5f7e284c7893df115b18cc62d80e7b0d3c536ff2e9080605542da5dded5d03df22ac9b8c31ccd5c913b6d3ada3ab0a2              260 Release
+ 94aeb8829e136e3e79bd47d47e0afcdf7f467ac9161203f1e8a51fb84031681cf311f00967ad37be96e3a3c9fb60f2bfe884f1c21afb24df5e3042df52f2c9a6             8920 main/binary-darwin-amd64/Packages
+ 3f6a33243bd574e7aa74e6fc4c34a2bee9555b41e5093485936e519dad5cce07d7be922456fa245d728ce4c669538fd46f082f06f7ab863d7f6b22b79a25eaa5             3153 main/binary-darwin-amd64/Packages.bz2
+ 2a8183c6d8d1aa8866c2b904fe0d29466102308815af0fd9dd1b0800b859f781628bfcfaea7d5cb95c2e5ffae7c89fb191f341655369e6292296598739e81b76             3087 main/binary-darwin-amd64/Packages.gz
+ 5221db97395d682b4f129f05ec8e749b6fac59ed2ffac40c7c953346cf98975791b326d28e053959a0b5ef5e08447d9882bfcd00bd34f62e4e971706a9109ae2             2936 main/binary-darwin-amd64/Packages.xz
+ 4081234a32d535125cc071693cbc54fd545c542207985e240aa027591deac49707a932de295314bed6ed139890b712a5653c715534675d40cdaa999c0712fc20             2950 main/binary-darwin-amd64/Packages.zst
+-----BEGIN PGP SIGNATURE-----
+
+iQJLBAEBCAA1FiEE4UuXSrnKBos3I7JA3V6cgX716BwFAmLMVnQXHGdyb3d0b3Bp
+YWphd0BnbWFpbC5jb20ACgkQ3V6cgX716BzBqBAAuYsWpZ6qMuWokNpC2J421xZn
+7VH2FYoOlQ8Uv0Qvrq/bCjyFO/jagnNZ1l6RxrDukKrHo8E+1YMTcgbz9w42U5Jd
+AHWoCNow012tXFvEviaPK3TcOzOy1Bg6Bs6Y0b46KedX4Npm48I9fe1VQMznPsyX
+2RSM2wSEsalN9J4invtDqgOwc5zGL72FiDeCm7+RiLGH6fAB/watn5NOCMfyfxsN
+VAhQQMQG4DdZiofj2Hr2IOKhcS74sxVoF4jajlzYauSjrvwdM6ZRGodcjPTAYTdk
+dgz+LIlZ+SHEaPv/4AsArFb4yt03ELEXn6ZDRctW8vcj6s4Vslzzkllxq+IRVFTD
+o5RrU/hP09E1aqizcgpOqDH1Ya8NgOvBTsXEtd7Ls9ykNKIbdQ/x5MzSvR6ImAPd
+SzrxrkRJfmCqqJl6rQU7OaaTWkGzv/y22yrx2oKQ0D9Soowh6xoV0MKMO+P85L9U
+W4bGsrWFMjtMvLzDbGWXR3cN7wYlA1BD6pZRSi+4YlnR9Hiivk6JVZngRN/MqC5f
+qW8EUoIdwm524nwEeiSZG4o55OBtdckdK+C3Skk2WdbQe1Fo+RyjSgH6IAttMAPF
+sXu7djRZDf3x7ICXzPRA2hXY9IkngAFWHk7AvONgqb5lr8aFVK18+xf2y73N9jfq
+JlvkUFNQFe2pXjygL88=
+=valV
+-----END PGP SIGNATURE-----

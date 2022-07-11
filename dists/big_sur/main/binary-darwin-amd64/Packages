@@ -1,0 +1,207 @@
+Package: db18.1-util
+Architecture: darwin-amd64
+Version: 18.1.40
+Priority: standard
+Section: Utilities
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 1112
+Depends: libssl3, libdb18.1
+Filename: pool/main/big_sur/berkeleydb/db18.1-util_18.1.40_darwin-amd64.deb
+Size: 59692
+MD5sum: 75cc15c57d1ab7d5d725e4b550ae3941
+SHA1: dc3be00e478f8d891cd75f0d243fefb27e75e2e8
+SHA256: 0f58bcb1b8661b71dea1eb33fe06369ad0813e25843aef9503cbf6106c266f80
+SHA512: 52abbc334db90e98c1be5da6103b67385e25a229e1f7d901364ebcf725a9db0c1af8b1d997bc0f5ec68e6368bc9f29f4c12d6a553aafb513fd0f60d767cc6230
+Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
+Description: Berkeley v18.1 Database Utilities
+ This package provides different tools for manipulating databases
+ in the Berkeley v18.1 database format, and includes:
+  - db_archive: write the pathnames of the log files no longer in use.
+  - db_checkpoint: daemon process to monitor the database log and
+    checkpoint it periodically.
+  - db_deadlock: traverse the database environment lock region and
+    abort lock requests when a deadlock is detected.
+  - db_load: loads (and creates) a database from standard input.
+  - db_dump: read a database file and write it in a format understood
+    by db4.{2..8}_load.
+  - db_printlog: dump log files in human readable format.
+  - db_stat: display statistics for Berkeley DB environments.
+  - db_upgrade: upgrades the version of files and the databases they
+    contain.
+  - db_verify: check the structure of files and their databases.
+
+Package: libdb18.1++-dev
+Architecture: darwin-amd64
+Version: 18.1.40
+Priority: standard
+Section: Development
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 8064
+Depends: libdb18.1++ (>= 18.1.40)
+Filename: pool/main/big_sur/berkeleydb/libdb18.1++-dev_18.1.40_darwin-amd64.deb
+Size: 3606670
+MD5sum: 2bc2f7b25031028c277f32bdcba67f56
+SHA1: c92cbe2a4da1f3d307fa2317b0116e78027fc2f5
+SHA256: 1ee4c479db2ea5a28e94454c79c11f0360942bb9139614ab57e65edfa7b4913e
+SHA512: 282c01cd70080bc6634aa774ba8aaa3e11738fc5af5cea5b5b38113d44536198362186d54c6a3abc04c89481575bcf3131ec235760e3aa56fa9b0aa575892811
+Description: Berkeley v5.3 Database Libraries for C++ [development]
+ This is the development package which contains headers and static
+ libraries for the Berkeley v5.3 database library.  This is only for
+ programs which will use the C++ interface.
+
+Package: libdb18.1++
+Architecture: darwin-amd64
+Version: 18.1.40
+Priority: standard
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 1744
+Depends: libssl3
+Conflicts: berkeleydb (<< 18.1.40)
+Replaces: berkeleydb (<< 18.1.40)
+Filename: pool/main/big_sur/berkeleydb/libdb18.1++_18.1.40_darwin-amd64.deb
+Size: 723804
+MD5sum: 1d081568d1106b5448a72767bf318899
+SHA1: 2a7e16976997777c6b917a3c91902d53265aec3b
+SHA256: 2c6c14db9f00c55dcbd2115afc779b256836d18a61a264986b0998a8c220b980
+SHA512: 64ef3bdd4ace8f7658ecf00cc0b71aede990d9a0f94610515671bad4d766b7a0bf279b93630e30073ce8ca9a5bef6fc3bca183c864bdae6267493020fbaa52b7
+Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
+Description: Berkeley v5.3 Database Libraries for C++ [runtime]
+ This is the runtime package for programs that use the Berkeley v5.3
+ database library.  This is only for programs which use the C++ interface.
+
+Package: libdb18.1-dev
+Architecture: darwin-amd64
+Version: 18.1.40
+Priority: standard
+Section: Development
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 7644
+Depends: libdb18.1 (>= 18.1.40)
+Filename: pool/main/big_sur/berkeleydb/libdb18.1-dev_18.1.40_darwin-amd64.deb
+Size: 3470230
+MD5sum: 42de71a9fa6ddc68138deae5abb7a191
+SHA1: 1c4c8c522325a1f040478aae106f8f2f94a42048
+SHA256: 25418ea3f89d84e56565663e26fd36bb0b82146435566492107dec1a23db5765
+SHA512: 03485155232e765aacc3dda875e216662df431ad418d92ec1ffd8d3ef49ce6dae96cfd50c07ce816ad3da1cf0c492558dc9e51ef1d02b2216ee7bf3e11043f76
+Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
+Description: Berkeley v18.1 Database Libraries [development]
+ This is the development package which contains headers and static
+ libraries for the Berkeley v18.1 database library.
+
+Package: libdb18.1-stl-dev
+Architecture: darwin-amd64
+Version: 18.1.40
+Priority: standard
+Section: Development
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 8656
+Depends: libdb18.1-stl (>= 18.1.40)
+Filename: pool/main/big_sur/berkeleydb/libdb18.1-stl-dev_18.1.40_darwin-amd64.deb
+Size: 3748042
+MD5sum: 279292456bc0deff419164bf4af5bf43
+SHA1: d11979b095b64bfea1b9a2131f922d777a829f87
+SHA256: efa4b0152d6356e0e05854b3fb37b75dc9a9831be29422aa971d2414d54611d1
+SHA512: 1d2e032163be6e132c2b71122a99cf34e27adf04c554b3854eae354ff9d57a172178759d91d2366aac936cee68b39c7418702eae7443d0ca6ae2dfe6273ef507
+Description: Berkeley v5.3 Database Libraries [STL development]
+ This is the development package which contains headers and static
+ libraries for the Berkeley v5.3 database library.
+
+Package: libdb18.1-stl
+Architecture: darwin-amd64
+Version: 18.1.40
+Priority: standard
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 1792
+Depends: libssl3
+Conflicts: berkeleydb (<< 18.1.40)
+Replaces: berkeleydb (<< 18.1.40)
+Filename: pool/main/big_sur/berkeleydb/libdb18.1-stl_18.1.40_darwin-amd64.deb
+Size: 742064
+MD5sum: f9f24175ecb9a85f43948ffcc66e7b39
+SHA1: 0371128500c6fc12eb9e5f289982c0a62f0140cf
+SHA256: c4c9770aa92c47e5c28ed1fd27f543c2c9a7d79a1244b5594b2a04d9343ce730
+SHA512: 1f7a54bf025f51db1698904a9eeda6ca25e49582b448ba1abec26a5a75e991aaf1af120825c27a0b4d1e72e4d973906cbf1f3f05da26b6cbf1f0669dc919e68e
+Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
+Description: Berkeley v5.3 Database Libraries [STL runtime]
+ This is the runtime package for programs that use the v5.3 Berkeley
+ database STL library.
+
+Package: libdb18.1
+Architecture: darwin-amd64
+Version: 18.1.40
+Priority: standard
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 1624
+Provides: berkeleydb (= 18.1.40)
+Depends: libssl3
+Conflicts: berkeleydb
+Replaces: berkeleydb
+Filename: pool/main/big_sur/berkeleydb/libdb18.1_18.1.40_darwin-amd64.deb
+Size: 691194
+MD5sum: 74e0d5b197b50bb79b24010369adfbe4
+SHA1: 806ba77bcd3f52543a7fccaf8ac69c56b3812cfb
+SHA256: 3d90a3ae8360860f544ae8cc0f30437546451c97d8700c28281197de54fb14f3
+SHA512: 76069c5f822d2355982c53be019295cf5399fbfae00b937ca047e403ee2be109c16d32459d8122367188f13f73b95f8398acd76965abb9420c44d838ab52b295
+Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
+Description: Berkeley v18.1 Database Libraries [runtime]
+ This is the runtime package for programs that use the v18.1 Berkeley
+ database library.
+
+Package: libxar-dev
+Architecture: darwin-amd64
+Version: 1.8.0.452+fc-6
+Priority: optional
+Section: Development
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 356
+Depends: libxar1 (>= 1.8.0.452+fc-6), libssl-dev
+Conflicts: xar (<< 1.8.0.452+fc-6)
+Replaces: xar (<< 1.8.0.452+fc-6)
+Filename: pool/main/big_sur/xar/libxar-dev_1.8.0.452+fc-6_darwin-amd64.deb
+Size: 122516
+MD5sum: d250984850701c7610bb7b399d460a3b
+SHA1: 50c5feddf2df91472cee9bd166bd0cd5b2423127
+SHA256: 6d97a53654090edcffa662625b4189f3c38436427b8f524c02234682eabadd9d
+SHA512: b4f2c1207b52bcda3b57389725cfec93a08437c7bfbf50710f17ed5a462ce147cffd10313418f7266087181d6e51b9fef107f3318635a53fd786e66c3cfea943
+Homepage: https://mackyle.github.io/xar/
+Description: eXtensible ARchive format - Development files
+
+Package: libxar1
+Architecture: darwin-amd64
+Version: 1.8.0.452+fc-6
+Priority: optional
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 144
+Depends: libssl3
+Conflicts: xar (<< 1.8.0.452+fc-6)
+Replaces: xar (<< 1.8.0.452+fc-6)
+Filename: pool/main/big_sur/xar/libxar1_1.8.0.452+fc-6_darwin-amd64.deb
+Size: 37744
+MD5sum: c725a869a4c587e2d48058821f17e08d
+SHA1: 07b9966801b702721759882ed6bef9b5690bf4ec
+SHA256: c16ff19da16611a9463f4d5d98c64f1f3d25c09afbcd3233492c9f3ed045ad0b
+SHA512: 12f37f69adc32bb0cd64e498030288b9609e07c5544a19c37b29232325f913cee1d355a0ae01a4c81ab2f69387626face583205df5620de782b0cafc9816e987
+Homepage: https://mackyle.github.io/xar/
+Description: eXtensible ARchive format - dynamic library
+
+Package: xar
+Architecture: darwin-amd64
+Version: 1.8.0.452+fc-6
+Priority: optional
+Section: Archiving
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 100
+Depends: libxar1 (>= 1.8.0.452+fc-6), libssl3
+Filename: pool/main/big_sur/xar/xar_1.8.0.452+fc-6_darwin-amd64.deb
+Size: 14608
+MD5sum: d45f5f3aeee34e9e3545a97add82d3f3
+SHA1: 5e63c2ee41a21c5b4808627ae51e27b74fa04be4
+SHA256: b09df4404cbe6ef1911ebed2907776bdb149e8523ab56bf853e033a4bf907195
+SHA512: 8a8fcf77133b83eb742336f3624f23060bc65f4f4ed7b9e49435fc49822233ed7f4bcf7499d5637431b0a46b71fc06893593c37b05767d604c640736eec8c63f
+Homepage: https://mackyle.github.io/xar/
+Description: eXtensible ARchive format
+
