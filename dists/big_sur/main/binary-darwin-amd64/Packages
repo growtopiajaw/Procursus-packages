@@ -171,6 +171,27 @@ Description: retrieves files from the web
  .
  Wget supports proxy servers; this can lighten the network load, speed up retrieval, and provide access behind firewalls.
 
+Package: wget
+Architecture: darwin-amd64
+Version: 1.21.3
+Priority: important
+Section: Networking
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 616
+Depends: libssl3, libpcre2-8-0, libintl8, libunistring2, libidn2-0
+Filename: pool/main/big_sur/wget/wget_1.21.3_darwin-amd64.deb
+Size: 291088
+MD5sum: 06ff48d18578ee7d91b9ea950a0e70f5
+SHA1: ef955fb6544b480165992318811660f3329d28d8
+SHA256: 29e4e03f769cf5c7555d6541881836df977381e4d90a4d295c8a94d21d14aa5e
+SHA512: a4bb1b78b95c671df3cf53586954f1f395a166134fc4d63f63df28d25476d7fb531895b4e5dda1e64758536780850796be39323b9e214695dfdf9ed87c8834cf
+Description: retrieves files from the web
+ Wget is a network utility to retrieve files from the web using HTTP(S) and FTP, the two most widely used internet protocols. It works non-interactively, so it will work in the background, after having logged off. The program supports recursive retrieval of web-authoring pages as well as FTP sites -- you can use Wget to make mirrors of archives and home pages or to travel the web like a WWW robot.
+ .
+ Wget works particularly well with slow or unstable connections by continuing to retrieve a document until the document is fully downloaded. Re-getting files from where it left off works on servers (both HTTP and FTP) that support it. Both HTTP and FTP retrievals can be time stamped, so Wget can see if the remote file has changed since the last retrieval and automatically retrieve the new version if it has.
+ .
+ Wget supports proxy servers; this can lighten the network load, speed up retrieval, and provide access behind firewalls.
+
 Package: wget2
 Architecture: darwin-amd64
 Version: 1.99.2-2
