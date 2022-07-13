@@ -1,3 +1,21 @@
+Package: bash
+Architecture: darwin-amd64
+Version: 5.1.16
+Priority: optional
+Section: Terminal_Support
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 3600
+Pre-Depends: libreadline8 (>= 8.0)
+Depends: libncursesw6, libreadline8
+Filename: pool/main/big_sur/bash/bash_5.1.16_darwin-amd64.deb
+Size: 576298
+MD5sum: 858f04cbb8a3433b43cadd20c64f887d
+SHA1: 96afb1dc5d31752840b1189c644d00a8b079ed82
+SHA256: e11dea1d2f0aa332ba7e7818783b3d9de6a0982153f654ca36e2b459da9db96d
+SHA512: 609a60b8d2b1d44411ff4cfcb733f1333361bbabeb9e37299033791ebca7322979693b7257d97a997c09af1607c21d461ba0ac60df691219a35d9ce85ddab3cd
+Homepage: http://www.gnu.org/software/bash/
+Description: the best shell ever written by Brian Fox
+
 Package: db18.1-util
 Architecture: darwin-amd64
 Version: 18.1.40-1
