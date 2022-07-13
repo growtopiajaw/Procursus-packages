@@ -320,6 +320,153 @@ Description: Berkeley v18.1 Database Libraries [runtime]
  This is the runtime package for programs that use the v18.1 Berkeley
  database library.
 
+Package: libpcre2-16-0
+Architecture: darwin-amd64
+Version: 10.40
+Multi-Arch: foreign
+Priority: standard
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 576
+Conflicts: pcre2 (<<1:0), libpcre2 (<< 10.40)
+Filename: pool/main/big_sur/pcre2/libpcre2-16-0_10.40_darwin-amd64.deb
+Size: 195968
+MD5sum: 5dc07612a6df91b273ec91c6324a7151
+SHA1: 3f8a72abca2322e2b6dac28678e3401000b1d5bd
+SHA256: 24b42ed0c0592ce97b8ef28bdf97f7faf4a5f3f4f72c7639547e49997206aba4
+SHA512: 04a03dac5c6e4851b375bed6e3820d66e7660facfe0053d723f5aa97b4d5ef2d2c5a856508ef961c7f3dd9030be20e1f7b6a18abe17a5aaa9ed3317c0f80eed3
+Description: New Perl Compatible Regular Expression Library - 16 bit runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library.
+ .
+ This package contains the 16 bit runtime library.
+
+Package: libpcre2-32-0
+Architecture: darwin-amd64
+Version: 10.40
+Multi-Arch: foreign
+Priority: standard
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 560
+Conflicts: pcre2 (<<1:0), libpcre2 (<< 10.40)
+Filename: pool/main/big_sur/pcre2/libpcre2-32-0_10.40_darwin-amd64.deb
+Size: 187624
+MD5sum: 5509002f8f0e9caa424272fd91e552c0
+SHA1: 61b73fa875df44804afdae3757d6db6e70ad9e17
+SHA256: 4e96520898b80724ecb5f5e6a5a3718621d25f2d06ba1ca13bccd3ea2856e645
+SHA512: 7398da549e22c0647c5ddd2d27bee88df007ef301f830bf8543745c2d72cc77eb4865ce0254772df7dbc7e693616b46458993f69eb4e949f0804d490e505e088
+Description: New Perl Compatible Regular Expression Library - 32 bit runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library.
+ .
+ This package contains the 32 bit runtime library.
+
+Package: libpcre2-8-0
+Architecture: darwin-amd64
+Version: 10.40
+Multi-Arch: foreign
+Priority: standard
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 624
+Provides: pcre2 (= 1:0), libpcre2 (= 10.40)
+Conflicts: pcre2 (<< 1:0), libpcre2 (<< 1:0)
+Replaces: pcre2, libpcre2
+Filename: pool/main/big_sur/pcre2/libpcre2-8-0_10.40_darwin-amd64.deb
+Size: 208570
+MD5sum: 0d01231260e61f1b41795b700e579959
+SHA1: ae08501f57fdd26da7b0465bf9395e1327771890
+SHA256: b7cb4151b54c3ced9d450bf28e1acd89ee4f137a32eb5f55cf5fa7d54334b826
+SHA512: c9a4335ec2ba8849f3b35aec45e6c7f521ab2598a92c0f3ca60ab980ffd88a1b0632779299ed85a4040e81eb1c157f4861e9f87fecca05a0cbc6d2274b06e519
+Description: New Perl Compatible Regular Expression Library- 8 bit runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library.
+ .
+ This package contains the 8 bit runtime library.
+
+Package: libpcre2-dev
+Architecture: darwin-amd64
+Version: 10.40
+Multi-Arch: foreign
+Priority: standard
+Section: Development
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 3476
+Conflicts: pcre2 (<<1:0), libpcre2 (<< 10.40)
+Filename: pool/main/big_sur/pcre2/libpcre2-dev_10.40_darwin-amd64.deb
+Size: 1686092
+MD5sum: 5c250a3b0239304e6db10d7129bd8bfe
+SHA1: a89744e1dd23d9353cca2fcb79fc8d0985030180
+SHA256: 3a6c0fd4a05c7286b3026bf04326d42797e98fd53be01dfa36f155b86c094b8d
+SHA512: 8193d06639325913530042951fb465c76ecdc85f7298bc8cc3c280d14b606eb0c48f63297bfc76daeb7eaaa3494689600ebe2c88e8d26a4069324161ee307599
+Description: New Perl Compatible Regular Expression Library - development files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library.
+ .
+ This package contains the development files, including headers,
+ static libraries, and documentation.
+
+Package: libpcre2-posix3
+Architecture: darwin-amd64
+Version: 10.40
+Multi-Arch: foreign
+Priority: standard
+Section: Libraries
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 100
+Depends: libpcre2-8-0 (>= 10.40)
+Conflicts: pcre2 (<< 1:0), libpcre2 (<< 10.40)
+Filename: pool/main/big_sur/pcre2/libpcre2-posix3_10.40_darwin-amd64.deb
+Size: 23640
+MD5sum: 8fc06bd7e0764fd3996038b4f43892d6
+SHA1: edaffbc19e278cc9a41eaa287db6f8d4d39c6a13
+SHA256: 729d349c5bdf1420e9dc59365699677ee96da0b10244afed18a9871e9ee686f1
+SHA512: cbfb36b58746d3d1c614ad2dee20e0776b6526b5b908ad4a6e11e0f7a5a8645625adafa776485dfcd6aaf4b4689d732404c39778da7e4750a0897c9d61dfa08d
+Description: New Perl Compatible Regular Expression Library - posix-compatible runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library.
+ .
+ This package contains the runtime library for the posix-compatible API.
+
+Package: pcre2-utils
+Architecture: darwin-amd64
+Version: 10.40
+Multi-Arch: foreign
+Priority: standard
+Section: Utilities
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 352
+Depends: libpcre2-8-0 (= 10.40), libpcre2-16-0 (= 10.40), libpcre2-32-0 (= 10.40), libpcre2-posix3 (= 10.40)
+Conflicts: pcre2 (<< 1:0), libpcre2 (<< 10.40)
+Replaces: pcre2
+Filename: pool/main/big_sur/pcre2/pcre2-utils_10.40_darwin-amd64.deb
+Size: 134146
+MD5sum: 786e23bbfca61531304146050c9d4e99
+SHA1: 4250617c8d4ce8bdbb370d215609b09b100fb1da
+SHA256: fae310cc8a2c7d9a0c9a7cfbbc9710b54d3148f6d044d3b6bab169b65afd0624
+SHA512: 53f7f5a29a36a694291c427741c877b9e53620ef0982807cb0874891f917d7e9f63203f4a58c89e8b95076a2a31f3b2fa3c1ea7e50ae72f73906d356617ef905
+Description: New Perl Compatible Regular Expression Library - utilities
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library.
+ .
+ This package contains the utilities pcre2grep (like grep with PCRE)
+ and pcre2test (a test program for the library, but also useful for
+ experimenting with regular expressions). Both programs are also
+ useful examples of programming with libpcre2.
+
 Package: wget
 Architecture: darwin-amd64
 Version: 1.21.1
